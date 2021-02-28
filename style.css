@@ -19,10 +19,5 @@ p
 
 .image
 {
-    box-shadow: 2px, 2px, 3px, black;
-}
-
-.image:hover
-{
-    block-size: 20em;
+    box-shadow: 5px, 5px, 3px, black;
 }
