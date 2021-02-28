@@ -21,3 +21,8 @@ p
 {
     box-shadow: 2px, 2px, 3px, black;
 }
+
+.image:hover
+{
+    block-size: 20em;
+}
