@@ -16,3 +16,8 @@ p
     font-family: Calibri, sans-serif;
     text-align: justify;
 }
+
+.image
+{
+    box-shadow: 2px, 2px, 3px, black;
+}
