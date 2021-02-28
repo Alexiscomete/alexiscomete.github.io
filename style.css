@@ -9,8 +9,9 @@ h1
     color: orange;
 }
 
-p1
+p
 {
     font-size: 1.2em;
     font-family: Calibri, sans-serif;
+    text-align: justify;
 }
