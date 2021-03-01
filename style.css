@@ -1,6 +1,7 @@
 h1
 {
     color: blue; /*test*/
+    text-align: center;
 
 }
 
@@ -12,12 +13,13 @@ h1
 
 p
 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: Calibri, sans-serif;
     text-align: justify;
 }
 
 .image
 {
+    border: 0px;
     box-shadow: 5px, 5px, 3px, black;
 }
