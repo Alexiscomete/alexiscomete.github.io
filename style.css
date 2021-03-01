@@ -1,8 +1,25 @@
+*
+{
+    font-family: Arial, sans-serif;
+}
+
 h1
 {
     color: blue; /*test*/
     text-align: center;
 
+}
+
+p
+{
+    font-size: 1em;
+    text-align: justify;
+}
+
+.image
+{
+    border: 0px;
+    box-shadow: 5px, 5px, 3px, black;
 }
 
 .github
@@ -11,15 +28,9 @@ h1
     text-align: right;
 }
 
-p
+.home
 {
-    font-size: 1.1em;
-    font-family: Calibri, sans-serif;
-    text-align: justify;
-}
-
-.image
-{
-    border: 0px;
-    box-shadow: 5px, 5px, 3px, black;
+    color: white;
+    font-size: 5em;
+    background-color: blue;
 }
