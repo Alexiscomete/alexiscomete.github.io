@@ -16,12 +16,6 @@ p
     text-align: justify;
 }
 
-.image
-{
-    border: 0px;
-    box-shadow: 5px, 5px, 3px, black;
-}
-
 .github
 {
     color: orange;
@@ -31,6 +25,12 @@ p
 .home
 {
     color: white;
-    font-size: 5em;
+    font-size: 2.5em;
     background-color: blue;
+}
+
+.summary
+{
+    text-align: left;
+    border: 1em ;
 }
