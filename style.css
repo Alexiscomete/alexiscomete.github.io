@@ -7,7 +7,7 @@ h1
 {
     color: blue; /*test*/
     text-align: center;
-
+    clear: both;
 }
 
 p
@@ -29,14 +29,36 @@ p
     float: left;
 }
 
-.summary
+nav
 {
-    border: 1em 0.5em 0.5em blue;
+    border: 0.2em blue solid;
+    border-radius: 0.5em;
     float: right;
 }
 
 header
 {
     background-color: blue;
-    font-size: 2.5em;
+    font-size: 2em;
+}
+
+section
+{
+    border: 0.1em gray solid;
+    border-radius: 0.5em;
+}
+
+aside
+{
+    float: right;
+}
+
+header a:hover
+{
+    background-color: #3dbbc4;
+}
+
+header a
+{
+    background-color: #3d7cc4;
 }
