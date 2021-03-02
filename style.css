@@ -35,13 +35,14 @@ header
     font-size: 1.5em;
     color: white;
     padding-bottom: 3px;
-    font-weight: 100%;
 }
 
 section
 {
     padding: 0.3em;
     margin: 0.3em;
+    /*display: flex;
+    flex-wrap: wrap;*/
 }
 
 aside
@@ -52,18 +53,11 @@ aside
 header a:hover
 {
     background-color: #00bbc9a8;
-    /*border: 3px #3dbbc4 solid;
-    border-radius: 3px;
-    margin: 0.1em;*/
-
 }
 
 header a
 {
     background-color: #004696;
-    /*border: 3px #3d7cc4 solid;
-    border-radius: 3px;
-    margin: 0.1em;*/
     text-decoration: none;
     color: white;
     padding: 3px;
@@ -73,7 +67,24 @@ header span
 {
     background-color: #006e99;
     padding: 3px;
-    /*border: 3px #0ee761 solid;
-    border-radius: 3px;
-    margin: 0.1em;*/
+}
+
+.image
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+figure
+{
+    border: 6px gray;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em;
+    flex: 1;
+    
 }
