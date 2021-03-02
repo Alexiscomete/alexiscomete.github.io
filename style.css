@@ -46,6 +46,7 @@ header
 {
     background-color: blue;
     font-size: 2em;
+    color: white;
 }
 
 section
@@ -77,6 +78,7 @@ header p a
     border-radius: 3px;
     margin: 0.1em;*/
     text-decoration: none;
+    color: white;
 }
 
 header p span
