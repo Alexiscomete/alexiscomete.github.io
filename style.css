@@ -82,7 +82,7 @@ header span
 
 figure
 {
-    border: 6px gray;
+    border: 6px gray solid;
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
