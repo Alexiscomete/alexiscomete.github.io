@@ -27,16 +27,20 @@ nav
     border: 0.2em blue solid;
     border-radius: 0.5em;
     float: right;
-    padding: 5%;
-    margin: 5%
+    padding: 2%;
+    margin: 2%;
 }
 
 header
 {
+    width: 100%;
     background-color: rgb(4, 4, 105);
     font-size: 1.5em;
     color: white;
     padding-bottom: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 section
@@ -67,7 +71,7 @@ header a
 header span
 {
     padding: 6px;
-    text-decoration: ligne;
+    text-decoration: underline;
 }
 
 .image
@@ -76,7 +80,7 @@ header span
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: baseline;
+    /*align-items: baseline;*/
 }
 
 figure
@@ -85,7 +89,13 @@ figure
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
-    margin: 1em;
-    flex: 1;
-    
+    overflow: auto;
+    padding: 1%;
+    margin: 1%;
+    width: min-content;
+}
+
+img
+{
+    margin: 1%;
 }
