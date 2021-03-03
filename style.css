@@ -27,6 +27,7 @@ nav
     border: 0.2em blue solid;
     border-radius: 0.5em;
     float: right;
+    padding: 30px;
 }
 
 header
