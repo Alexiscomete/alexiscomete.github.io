@@ -37,10 +37,8 @@ header
     background-color: rgb(4, 4, 105);
     font-size: 1.5em;
     color: white;
-    padding-bottom: 3px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 section
