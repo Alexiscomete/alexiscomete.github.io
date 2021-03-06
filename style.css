@@ -31,6 +31,8 @@ nav
     margin: 2%;
 }
 
+
+
 header
 {
     width: 100%;
@@ -51,8 +53,12 @@ section
 
 aside
 {
+    max-width: 360px;
     float: right;
-    margin: 1%;
+    margin-left: 1em;
+    margin-top: 0;
+    background-color: #d1d1d1;
+    text-align: center;
 }
 
 header a:hover
@@ -98,3 +104,16 @@ img
 {
     margin: 1%;
 }
+
+aside p
+{
+    margin-bottom: 1%;
+    padding: 1%;
+}
+
+/*
+nav + section
+{
+    clear: both;
+}
+*/
