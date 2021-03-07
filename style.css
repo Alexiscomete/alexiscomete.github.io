@@ -31,8 +31,6 @@ nav
     margin: 2%;
 }
 
-
-
 header
 {
     width: 100%;
@@ -41,6 +39,7 @@ header
     color: white;
     display: flex;
     flex-wrap: wrap;
+    /*position: fixed;*/
 }
 
 section
@@ -49,16 +48,6 @@ section
     margin: 0.3em;
     /*display: flex;
     flex-wrap: wrap;*/
-}
-
-aside
-{
-    max-width: 360px;
-    float: right;
-    margin-left: 1em;
-    margin-top: 0;
-    background-color: #d1d1d1;
-    text-align: center;
 }
 
 header a:hover
@@ -95,9 +84,10 @@ figure
     display: flex;
     flex-wrap: wrap;
     overflow: auto;
-    padding: 1%;
+    padding: 3px;
     margin: 1%;
-    width: min-content;
+    /*width: min-content;*/
+    height: min-content;
 }
 
 img
@@ -111,9 +101,34 @@ aside p
     padding: 1%;
 }
 
-/*
-nav + section
+figcaption
 {
-    clear: both;
+    margin: 1%;
 }
-*/
+
+figure img
+{
+    margin: 3px;
+}
+
+aside
+{
+    max-width: 360px;
+    background-color: #d1d1d1;
+    text-align: center;
+}
+
+.hasAside p
+{
+    margin: 2%;
+    min-width: 250px;
+    width: 50%;
+}
+
+.hasAside
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
