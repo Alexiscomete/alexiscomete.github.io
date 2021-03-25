@@ -22,11 +22,16 @@ p
     text-align: justify;
 }
 
+
+@media (min-width: 600px) {
+    nav {
+        float: right;
+    }
+}
 nav
 {
     border: 0.2em blue solid;
     border-radius: 0.5em;
-    float: right;
     padding: 2%;
     margin: 2%;
 }
