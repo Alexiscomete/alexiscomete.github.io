@@ -45,6 +45,14 @@ section
 {
     padding: 0.3em;
     margin: 0.3em;
+    border-bottom: 2px #22b8d3 solid;
+    transition: 1s;
+}
+
+section:hover
+{
+    background-color: #d3e4e7;
+    transition: 1s;
 }
 
 header a:hover
