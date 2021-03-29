@@ -22,12 +22,6 @@ p
     text-align: justify;
 }
 
-
-@media (min-width: 600px) {
-    nav {
-        float: right;
-    }
-}
 nav
 {
     border: 0.2em blue solid;
@@ -51,13 +45,12 @@ section
 {
     padding: 0.3em;
     margin: 0.3em;
-    /*display: flex;
-    flex-wrap: wrap;*/
 }
 
 header a:hover
 {
     background-color: #00bbc9a8;
+    transition: 500ms;
 }
 
 header a
@@ -65,12 +58,14 @@ header a
     text-decoration: none;
     color: white;
     padding: 6px;
+    transition: 500ms;
 }
 
 header span
 {
     padding: 6px;
     text-decoration: underline;
+    transition: 500ms;
 }
 
 .image
@@ -119,21 +114,45 @@ figure img
 aside
 {
     max-width: 360px;
-    background-color: #d1d1d1;
+    background-color: #68c3d3ce;
+    border: 3px #68c3d3ce solid;
+    border-radius: 7px;
     text-align: center;
+}
+
+.colorB1
+{
+    background-color: #6884d3ce;
+    border: 1px #6884d3ce solid;
+    border-radius: 7px;
+    padding: 2%;
 }
 
 .hasAside p
 {
     margin: 2%;
     min-width: 250px;
-    width: 50%;
+    width: 100%;
 }
 
 .hasAside
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     /*align-items: center;*/
+}
+
+@media (min-width: 700px)
+{
+    nav
+    {
+        float: right;
+    }
+    .hasAside p
+    {
+        width: 40%;
+        font-size: 1.3em;
+        align-self: center;
+    }
 }
