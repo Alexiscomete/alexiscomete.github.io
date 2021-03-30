@@ -151,6 +151,11 @@ aside
     /*align-items: center;*/
 }
 
+iframe
+{
+    box-sizing: border-box
+}
+
 @media (min-width: 700px)
 {
     nav
