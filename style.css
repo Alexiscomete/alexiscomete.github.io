@@ -85,6 +85,14 @@ header span
     /*align-items: baseline;*/
 }
 
+.images
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+
 figure
 {
     border: 6px gray solid;
