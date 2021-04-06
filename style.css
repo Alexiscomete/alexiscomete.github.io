@@ -138,10 +138,11 @@ aside
 
 .colorB1
 {
-    background-color: #6884d3ce;
-    border: 1px #6884d3ce solid;
+    background-color: #dae4ff;
+    border: 1px #a1b7f3 solid;
     border-radius: 7px;
     padding: 2%;
+    box-shadow: 3px 3px 3px #8296ca;
 }
 
 .hasAside p
