@@ -48,14 +48,15 @@ section
     padding: 0.3em;
     margin: 0.3em;
     border-bottom: 2px #22b8d3 solid;
-    transition: 1s;
+    /*transition: 1s;*/
 }
 
+/*
 section:hover
 {
     background-color: #d3e4e7;
     transition: 1s;
-}
+}*/
 
 header a:hover
 {
@@ -97,7 +98,9 @@ header span
 
 figure
 {
-    border: 6px gray solid;
+    border: 6px #89e9f0a8 solid;
+    background-color: #eefeffa8;
+    box-shadow: 3px 3px 3px #8296ca;
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -122,6 +125,11 @@ aside p
 figcaption
 {
     margin: 1%;
+    background-color: #dae4ff;
+    border: 1px #a1b7f3 solid;
+    border-radius: 7px;
+    padding: 2%;
+    box-shadow: 3px 3px 3px #8296ca;
 }
 
 figure img
