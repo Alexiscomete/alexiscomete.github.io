@@ -24,10 +24,12 @@ p
 
 nav
 {
-    border: 0.2em blue solid;
+    border: 0.2em #7ca6e67c solid;
+    background-color: #c8dcffa8;
     border-radius: 0.5em;
     padding: 2%;
     margin: 2%;
+    box-shadow: 3px 3px 3px #5e79b4a8;
 }
 
 header
