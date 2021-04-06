@@ -14,6 +14,9 @@ h1
     color: blue; /*test*/
     text-align: center;
     clear: both;
+    font-size: 7vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 p
@@ -152,6 +155,7 @@ aside
     border-radius: 7px;
     padding: 2%;
     box-shadow: 3px 3px 3px #8296ca;
+    width: max-content;
 }
 
 .hasAside p
