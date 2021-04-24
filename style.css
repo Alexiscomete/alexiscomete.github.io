@@ -100,8 +100,8 @@ header span
 
 figure
 {
-    border: 6px #89e9f0a8 solid;
-    background-color: #eefeffa8;
+    /*border: 6px #89e9f0a8 solid;*/
+    background-color: #c1fbffa8;
     box-shadow: 3px 3px 3px #8296ca;
     border-radius: 5px;
     display: flex;
@@ -109,8 +109,8 @@ figure
     overflow: auto;
     padding: 3px;
     margin: 1%;
-    /*width: min-content;*/
     height: min-content;
+
 }
 
 img
@@ -132,6 +132,8 @@ figcaption
     border-radius: 7px;
     padding: 2%;
     box-shadow: 3px 3px 3px #8296ca;
+    height: min-content;
+
 }
 
 figure img
