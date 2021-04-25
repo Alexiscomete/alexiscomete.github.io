@@ -104,12 +104,13 @@ figure
     background-color: #c1fbffa8;
     box-shadow: 3px 3px 3px #8296ca;
     border-radius: 5px;
-    display: grid;
-    /*grid-template-columns: minmax(100px, auto) repeat(3, 1fr);*/
-    /*grid-auto-columns: minmax(100px, 300px);*/
-    grid-auto-flow: column;
+    display: flex;
+    /*grid-template-columns: /*minmax(100px, auto) repeat(3, 1fr) 100px 1fr;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;*/
+    width: 80%;
     flex-wrap: wrap;
-    overflow: auto;
+    overflow: hidden;
     padding: 3px;
     margin: 1%;
     height: min-content;
