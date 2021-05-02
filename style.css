@@ -162,8 +162,9 @@ aside
     margin: 2%;
     min-width: 250px;
     width: 100%;
-    align-self: center;
+    /*align-self: center;*/
     grid-area: texte;
+    height: min-content;
 }
 
 /*.hasAside p
@@ -192,7 +193,7 @@ iframe
     {
         display: grid;
         grid-template-columns: 0.5fr 1fr 0.7fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 0.3fr 1fr;
         gap: 1% 2%;
         grid-template-areas:
             "nav title aside"
@@ -206,6 +207,10 @@ iframe
     {
         width: 95%;
         font-size: 1.3em;
-        align-self: center;
+        /*align-self: center;*/
+    }
+    aside
+    {
+        justify-self: end;
     }
 }
