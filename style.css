@@ -14,7 +14,7 @@ h1
     color: blue; /*test*/
     text-align: center;
     clear: both;
-    font-size: 7vw;
+    font-size: 6vw;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -27,7 +27,7 @@ p
 
 nav
 {
-    border: 0.2em #7ca6e67c solid;
+    /*border: 0.2em #7ca6e67c solid;*/
     background-color: #c8dcffa8;
     border-radius: 0.5em;
     padding: 2%;
