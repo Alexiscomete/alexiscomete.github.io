@@ -42,7 +42,7 @@ nav
     box-shadow: 3px 3px 3px #5e79b4a8;
     height: min-content;
     grid-area: nav;
-    width: min-content;
+    width: max-content;
 }
 
 header
