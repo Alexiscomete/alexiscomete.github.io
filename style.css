@@ -9,6 +9,11 @@ body
     margin: 0;
 }
 
+/*.content
+{
+    
+}*/
+
 h1
 {
     color: blue; /*test*/
@@ -17,6 +22,8 @@ h1
     font-size: 6vw;
     margin-top: 5%;
     margin-bottom: 5%;
+    height: min-content;
+    grid-area: title;
 }
 
 p
@@ -33,6 +40,8 @@ nav
     padding: 2%;
     margin: 2%;
     box-shadow: 3px 3px 3px #5e79b4a8;
+    height: min-content;
+    grid-area: nav;
 }
 
 header
@@ -43,7 +52,6 @@ header
     color: white;
     display: flex;
     flex-wrap: wrap;
-    /*position: fixed;*/
 }
 
 section
@@ -51,6 +59,7 @@ section
     padding: 0.3em;
     margin: 0.3em;
     border-bottom: 2px #22b8d3 solid;
+    /*grid-area: other;*/
 }
 
 header a:hover
@@ -102,7 +111,6 @@ figure
     padding: 3px;
     margin: 1%;
     height: min-content;
-
 }
 
 img
@@ -114,6 +122,7 @@ aside p
 {
     margin: 1%;
     padding: 1%;
+    box-sizing: border-box;
 }
 
 figcaption
@@ -138,6 +147,9 @@ aside
     background-color: #68c3d3ce;
     border-radius: 7px;
     text-align: center;
+    margin: 1%;
+    grid-area: aside;
+    padding: 0.5%;
 }
 
 .colorB1
@@ -147,14 +159,19 @@ aside
     padding: 2%;
     box-shadow: 3px 3px 3px #8296ca;
     width: max-content;
+    margin: 2%;
+    min-width: 250px;
+    width: 100%;
+    align-self: center;
+    grid-area: texte;
 }
 
-.hasAside p
+/*.hasAside p
 {
     margin: 2%;
     min-width: 250px;
     width: 100%;
-}
+}*/
 
 .hasAside
 {
@@ -171,13 +188,23 @@ iframe
 
 @media (min-width: 700px)
 {
+    .content
+    {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 0.7fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 1% 2%;
+        grid-template-areas:
+            "nav title aside"
+            "nav texte aside";
+    }
     nav
     {
-        float: right;
+        float: left;
     }
-    .hasAside p
+    .colorB1
     {
-        width: 40%;
+        width: 95%;
         font-size: 1.3em;
         align-self: center;
     }
