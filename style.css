@@ -164,8 +164,12 @@ aside
     min-width: 250px;
     width: 100%;
     /*align-self: center;*/
-    grid-area: texte;
     height: min-content;
+}
+
+.texte
+{
+    grid-area: texte;
 }
 
 /*.hasAside p
