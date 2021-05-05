@@ -162,7 +162,6 @@ aside
     width: max-content;
     margin: 2%;
     min-width: 250px;
-    width: 100%;
     /*align-self: center;*/
     height: min-content;
 }
@@ -170,6 +169,8 @@ aside
 .texte
 {
     grid-area: texte;
+    width: 100%;
+
 }
 
 /*.hasAside p
