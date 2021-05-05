@@ -211,9 +211,12 @@ iframe
     }
     .colorB1
     {
-        width: 95%;
         font-size: 1.3em;
         /*align-self: center;*/
+    }
+    .texte
+    {
+        width: 95%;
     }
     aside
     {
