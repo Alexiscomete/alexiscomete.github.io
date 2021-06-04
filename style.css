@@ -163,10 +163,15 @@ aside
     width: max-content;
     margin: 2%;
     min-width: 250px;
-    width: 100%;
     /*align-self: center;*/
-    grid-area: texte;
     height: min-content;
+}
+
+.texte
+{
+    grid-area: texte;
+    width: 100%;
+
 }
 
 /*.hasAside p
@@ -207,9 +212,12 @@ iframe
     }
     .colorB1
     {
-        width: 95%;
         font-size: 1.3em;
         /*align-self: center;*/
+    }
+    .texte
+    {
+        width: 95%;
     }
     aside
     {
