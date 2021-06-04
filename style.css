@@ -43,6 +43,7 @@ nav
     height: min-content;
     grid-area: nav;
     width: max-content;
+    display: block;
 }
 
 header
