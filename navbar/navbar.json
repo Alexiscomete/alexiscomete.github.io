@@ -1,0 +1,21 @@
+{
+    "en": [
+        {
+            "name": "Projects",
+            "sub": [],
+            "link": "/projects"
+        },
+        {
+            "name": "Learn",
+            "sub": [],
+            "link": "/learn"
+        },
+        {
+            "name": "Games",
+            "sub": [],
+            "link": "/games"
+        }
+    ],
+    "fr": [],
+    "dibi": []
+}
