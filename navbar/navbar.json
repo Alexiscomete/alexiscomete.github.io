@@ -2,7 +2,32 @@
     "en": [
         {
             "name": "Projects",
-            "sub": [],
+            "sub": [
+                {
+                    "name": "Steedland",
+                    "link": "/steedland"
+                },
+                {
+                    "name": "Lapinou second",
+                    "link": "/ls"
+                },
+                {
+                    "name": "Skribi",
+                    "link": "/skribi"
+                },
+                {
+                    "name": "Combine domination",
+                    "link": "/cd"
+                },
+                {
+                    "name": "SnowJump",
+                    "link": "/sj"
+                },
+                {
+                    "name": "FebruaryChallenge2021",
+                    "link": "/fc2021"
+                }
+            ],
             "link": "/projects"
         },
         {
