@@ -129,6 +129,7 @@ let navbarData = {
 
 let url = window.location.href;
 let lang = url.includes("/en") ? "en" : url.includes("/fr") ? "fr" : "dibi";
+console.log(lang);
 
 // je génère maintenant le menu
 
