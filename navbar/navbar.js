@@ -43,7 +43,7 @@ let navbarData = {
     ],
     fr: [
         {
-            name: "projets",
+            name: "Projets",
             sub: [
                 {
                     name: "Steedland",
@@ -85,7 +85,7 @@ let navbarData = {
     ],
     dibi: [
         {
-            name: "projets",
+            name: "Projets",
             sub: [
                 {
                     name: "Steedland",
@@ -115,7 +115,7 @@ let navbarData = {
             link: "/projects"
         },
         {
-            name: "Ce que j'apprendre",
+            name: "Ce que j'apprends",
             sub: [],
             link: "/learn"
         },
@@ -136,12 +136,14 @@ console.log(lang);
 let menu = document.createElement("div");
 menu.classList.add("navbar");
 
+let baseLink = "/" + lang
+
 navbarData[lang].forEach(element => {
     let menuItem = document.createElement("div");
     menuItem.classList.add("navbar-item");
     // le div pour le nom du menu dans un lien
     let menuItemLink = document.createElement("a");
-    menuItemLink.href = element.link;
+    menuItemLink.href = baseLink + element.link;
     let menuItemLinkText = document.createElement("div");
     menuItemLinkText.classList.add("navbar-item-text");
     menuItemLinkText.innerText = element.name;
@@ -154,7 +156,7 @@ navbarData[lang].forEach(element => {
         let menuItemSubItem = document.createElement("div");
         menuItemSubItem.classList.add("navbar-item-sub-item");
         let menuItemSubItemLink = document.createElement("a");
-        menuItemSubItemLink.href = subElement.link;
+        menuItemSubItemLink.href = baseLink + element.link + subElement.link;
         let menuItemSubItemLinkText = document.createElement("div");
         menuItemSubItemLinkText.classList.add("navbar-item-sub-item-text");
         menuItemSubItemLinkText.innerText = subElement.name;
