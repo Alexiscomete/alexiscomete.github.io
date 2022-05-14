@@ -7,6 +7,14 @@
     color: #e6e6e689;
 }
 
+.navbar a {
+    display: block;
+    color: #e6e6e689;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 .navbar-item {}
 
 .navbar-item-text {}
