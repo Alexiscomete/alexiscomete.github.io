@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    background-color: #222533;
+}
+
 .navbar {
     position: fixed;
     top: 0px;
@@ -15,11 +20,22 @@
     text-decoration: none;
 }
 
-.navbar-item {}
+.navbar-item:hover {
+    background-color: #00444977;
+    transition: 500ms;
+}
 
 .navbar-item-text {}
 
-.navbar-item-sub {}
+.navbar-item-sub {
+    display: none;
+}
+
+.navbar-item:hover .navbar-item-sub {
+    background-color: #0043475e;
+    display: block;
+    position: fixed;
+}
 
 .navbar-item-sub-item {}
 

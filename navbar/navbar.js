@@ -73,7 +73,7 @@ let navbarData = {
             link: "/projects"
         },
         {
-            name: "Ce que j'apprendre",
+            name: "Ce que j'apprends",
             sub: [],
             link: "/learn"
         },
