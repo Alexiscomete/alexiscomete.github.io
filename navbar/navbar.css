@@ -1,6 +1,8 @@
 body {
     margin: 0;
     background-color: #403D39;
+    font-family: Calibri, Arial, sans-serif;
+    padding-top: 80px;
 }
 
 .navbar {
@@ -8,20 +10,21 @@ body {
     top: 0px;
     width: 100%;
     display: flex;
-    background-color: #222422af;
-    color: #208AAE89;
+    background-color: #222422cc;
+    color: #208AAEd2;
 }
 
 .navbar a {
     display: block;
-    color: #208aae;
+    color: #208aaed2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .navbar-item:hover {
-    background-color: #18414e57;
+    background-color: #18414edd;
     transition: 500ms;
 }
 
@@ -32,13 +35,13 @@ body {
 }
 
 .navbar-item:hover .navbar-item-sub {
-    background-color: #2A2B285e;
+    background-color: #2A2B28cc;
     display: block;
     position: fixed;
 }
 
 .navbar-item-sub-item:hover {
-    background-color: #21363bb0;
+    background-color: #21363bdd;
     transition: 500ms;
 }
 

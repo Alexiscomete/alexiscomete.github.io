@@ -39,6 +39,11 @@ let navbarData = {
             name: "Programming Games",
             sub: [],
             link: "/games"
+        },
+        {
+            name: "Github",
+            sub: [],
+            link: "https://github.com/Alexiscomete/alexiscomete.github.io"
         }
     ],
     fr: [
@@ -81,6 +86,11 @@ let navbarData = {
             name: "Jeux de programmation",
             sub: [],
             link: "/games"
+        },
+        {
+            name: "Github",
+            sub: [],
+            link: "https://github.com/Alexiscomete/alexiscomete.github.io"
         }
     ],
     dibi: [
@@ -123,6 +133,11 @@ let navbarData = {
             name: "Jeux de programmation",
             sub: [],
             link: "/games"
+        },
+        {
+            name: "Github",
+            sub: [],
+            link: "https://github.com/Alexiscomete/alexiscomete.github.io"
         }
     ]
 }
@@ -143,7 +158,12 @@ navbarData[lang].forEach(element => {
     menuItem.classList.add("navbar-item");
     // le div pour le nom du menu dans un lien
     let menuItemLink = document.createElement("a");
-    menuItemLink.href = baseLink + element.link;
+    if (element.link.includes("http")) {
+        menuItemLink.href = element.link;
+        menuItemLink.target = "_blank";
+    } else {
+        menuItemLink.href = baseLink + element.link;
+    }
     let menuItemLinkText = document.createElement("div");
     menuItemLinkText.classList.add("navbar-item-text");
     menuItemLinkText.innerText = element.name;
