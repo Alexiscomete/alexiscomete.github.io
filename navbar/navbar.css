@@ -10,13 +10,13 @@ body {
     top: 0px;
     width: 100%;
     display: flex;
-    background-color: #222422cc;
-    color: #208AAEd2;
+    background-color: #222422dd;
+    color: #208AAE;
 }
 
 .navbar a {
     display: block;
-    color: #208aaed2;
+    color: #208aae;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -24,7 +24,7 @@ body {
 }
 
 .navbar-item:hover {
-    background-color: #18414edd;
+    background-color: #18414e;
     transition: 500ms;
 }
 
@@ -32,16 +32,18 @@ body {
 
 .navbar-item-sub {
     display: none;
+    background-color: #2A2B2800;
+    transition: 500ms background-color linear;
 }
 
 .navbar-item:hover .navbar-item-sub {
-    background-color: #2A2B28cc;
     display: block;
     position: fixed;
+    background-color: #2A2B28dd;
 }
 
 .navbar-item-sub-item:hover {
-    background-color: #21363bdd;
+    background-color: #21363b;
     transition: 500ms;
 }
 
