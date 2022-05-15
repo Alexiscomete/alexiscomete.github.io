@@ -14,14 +14,14 @@ body {
 
 .navbar a {
     display: block;
-    color: #208AAE89;
+    color: #208aae;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .navbar-item:hover {
-    background-color: #C1292E77;
+    background-color: #18414e57;
     transition: 500ms;
 }
 
@@ -32,11 +32,14 @@ body {
 }
 
 .navbar-item:hover .navbar-item-sub {
-    background-color: #F1A2085e;
+    background-color: #2A2B285e;
     display: block;
     position: fixed;
 }
 
-.navbar-item-sub-item {}
+.navbar-item-sub-item:hover {
+    background-color: #21363bb0;
+    transition: 500ms;
+}
 
 .navbar-item-sub-item-text {}
